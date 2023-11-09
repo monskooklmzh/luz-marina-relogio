@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  body {
+    min-height: 100vh;
+    width: 100%;
+    height: 200%;
+
+
+  }
+ 
+  .container {
+    background-image: radial-gradient(circle, #11253b 0%, #2260d4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+  }
+ 
+  .clock {
+    align-items: center;
+    background-color: #334961;
+    border: 5px solid #100135;
+    border-radius: 8%;
+    color: #201820;
+    display: inline-flex;
+    font-size: 95px;
+    justify-content: center;
+    height: 150px;
+    width: 350px;
+  }
+
+
